@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check-QR</title>
+    <style>
+        .con{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        .btn{
+            background-color: lightblue;
+            border: none;
+            outline: none;
+            font-size: 26px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <button class="btn" onclick="verify()">Click to verify</button>
+    </div>
+    <script>
+        function verify (){
+            console.log("hello")
+            window.location.href = "https://ecozo-jp.asia/";
+        }
+    </script>
+</body>
+</html>
